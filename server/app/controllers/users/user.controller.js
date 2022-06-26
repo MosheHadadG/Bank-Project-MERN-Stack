@@ -77,9 +77,8 @@ export const getMyProfile = async (req, res) => {
   res.send(req.user);
 }
 
-
-// /my-accounts?limit=3&skip=0 fetch 3 acccounts page 1
-// /my-accounts?limit=3&skip=3 fetch 3 acccounts page 2
+// /my-accounts?limit=3&skip=0 fetch 3 accounts page 1
+// /my-accounts?limit=3&skip=3 fetch 3 accounts page 2
 export const getMyAccounts = async (req, res) => {
   try {
     const userWithVirtualAccounts = await req.user.populate({
