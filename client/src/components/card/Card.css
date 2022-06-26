@@ -1,0 +1,9 @@
+.card-container {
+  width: 160px;
+  height: 100px;
+  text-align: center;
+}
+
+.card-icon, .card-title {
+  color: #00a3e0;
+}

@@ -1,0 +1,12 @@
+.sub-header {
+  width: 100%;
+  height: 550px;
+  background: url("../../../public/photo-1500058616600-a743332abf53.png") no-repeat top center/cover;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
